@@ -3,36 +3,36 @@ import React from 'react';
 const CustomerInformatio = () => {
   return (
     <div className="font-jakarta bg-white rounded-[10px] border border-[#e0e6ed] md:m-4 md:mx-14 shadow-[0_2px_5px_rgba(0,0,0,0.05)] overflow-hidden p-8 cursor-pointer ">
-      {/* Stepper */}
+      
       <div className="flex items-center mb-8">
-        {/* Step 1 */}
+        
         <div className="flex items-center">
           <div className="w-8 h-8 flex items-center justify-center text-white bg-teal-700 rounded-full font-semibold text-[16px]">1</div>
           <span className="ml-2 font-medium text-teal-700">Customer Information</span>
         </div>
-        {/* Border after Step 1 */}
+        
         <div className="h-0 mx-4 border-t-2 border-gray-400 w-44" />
-        {/* Step 2 */}
+        
         <div className="flex items-center">
           <div className="w-8 h-8 flex items-center justify-center text-[#bfc5ce] bg-[#f3f6fa] rounded-full font-semibold text-[16px]">2</div>
           <span className="ml-2 text-[#bfc5ce] font-medium">Product Selection</span>
         </div>
-        {/* Border after Step 2 */}
+       
         <div className="h-0 mx-4 border-t-2 border-gray-400 w-44" />
-        {/* Step 3 */}
+    
         <div className="flex items-center">
           <div className="w-8 h-8 flex items-center justify-center text-[#bfc5ce] bg-[#f3f6fa] rounded-full font-semibold text-[16px]">3</div>
           <span className="ml-2 text-[#bfc5ce] font-medium">Payment Details</span>
         </div>
       </div>
 
-      {/* Title & Subtitle */}
+      
       <div className="mb-2">
         <h2 className="text-[22px] font-semibold text-[#222b45]">Customer Information</h2>
         <p className="text-[#8f9bb3] text-[15px]">Search existing by phone or add new customer</p>
       </div>
 
-      {/* Search */}
+      
       <div className="mt-6 mb-8 ">
         <label className="block text-[#222b45] text-[16px] font-medium mb-2">Search</label>
         <div className="relative">
@@ -71,7 +71,7 @@ const CustomerInformatio = () => {
         </div>
       </div>
 
-      {/* Address Fields */}
+      
       <div className="mb-2">
         <label className="block text-[#222b45] text-[16px] font-medium mb-2">Address <span className="text-[#8f9bb3]">(optional)</span></label>
         <input
