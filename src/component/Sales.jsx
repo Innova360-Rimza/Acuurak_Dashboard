@@ -3,6 +3,7 @@ import Tables from './Tables';
 import Inputs from './Inputs';
 import TabNav from './TabNav';
 import SaleInvoice from '../SalesView/SaleInvoice';
+import CustomerInformatio from '../CreateNewSale/CustomerInformatio';
 
 
 
@@ -22,6 +23,7 @@ const Sales = () => {
 </div>
 
 <SaleInvoice/>
+<CustomerInformatio/>
 </>
    
   )
