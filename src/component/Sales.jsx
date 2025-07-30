@@ -4,6 +4,7 @@ import Inputs from './Inputs';
 import TabNav from './TabNav';
 import SaleInvoice from '../SalesView/SaleInvoice';
 import CustomerInformatio from '../CreateNewSale/CustomerInformatio';
+import PaymentInformation from '../CreateNewSale/PaymentInformation';
 
 
 
@@ -24,6 +25,7 @@ const Sales = () => {
 
 <SaleInvoice/>
 <CustomerInformatio/>
+<PaymentInformation/>
 </>
    
   )

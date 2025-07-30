@@ -1,85 +1,4 @@
-// import React from 'react';
-// import { FaSearch, FaCalendarAlt } from "react-icons/fa";
-
-// const Inputs = () => {
-//   return (
-//     <>
-//     <div className="mt-3 mb-4 space-y-6 mb- mx-14">
-//           {/* Input Search */}
-//           <div className="flex flex-col w-full">
-//             <label className="mb-1 text-sm font-medium text-gray-700">Search</label>
-//             <div className="relative">
-//               <input
-//                 type="text"
-//                 placeholder="Search by name or ID"
-//                 className="w-full border border-gray-200 rounded-md py-2 pl-4 pr-10 text-sm placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-[#0C6271]"
-//               />
-//               <FaSearch className="absolute right-3 top-2.5 text-gray-400" />
-//             </div>
-//           </div>
-    
-          
-//           <div className="flex flex-wrap gap-4">
-//             {/* Payment Method */}
-//             <div className="flex flex-col">
-//               <label className="mb-1 text-sm font-medium text-gray-700">Payment Method</label>
-//               <select className="border border-gray-200 rounded-md py-2 px-4 text-sm text-gray-700 focus:outline-none focus:ring-1 focus:ring-[#0C6271] w-[400px]">
-//                 <option>All</option>
-//                 <option>Cash</option>
-//                 <option>Credit Card</option>
-//                 <option>Bank Transfer</option>
-//               </select>
-//             </div>
-    
-//             {/* Date Range */}
-//             <div className="flex flex-col">
-//               <label className="mb-1 text-sm font-medium text-gray-700">Date Range</label>
-//               <div className="flex items-center gap-2">
-//                 <div className="relative">
-//                   <input
-//                     type="text"
-//                     placeholder="Start"
-//                     className="border border-gray-200 rounded-md py-2 pl-4 pr-8 text-sm text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-[#0C6271] w-[230px]"
-//                   />
-//                   <FaCalendarAlt className="absolute right-2 top-2.5 text-gray-400" />
-//                 </div>
-//                 <div className="relative">
-//                   <input
-//                     type="text"
-//                     placeholder="End"
-//                     className="border border-gray-200 rounded-md py-2 pl-4 pr-8 text-sm text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-[#0C6271] w-[230px]"
-//                   />
-//                   <FaCalendarAlt className="absolute right-2 top-2.5 text-gray-400" />
-//                 </div>
-//               </div>
-//             </div>
-    
-//             {/* Filter btn */}
-//             <div className="flex items-end">
-//               <button className=" w-[130px] px-4 py-2 mb-3 text-sm text-gray-500 transition border border-teal-700 rounded-full  hover:bg-gray-100">
-//                 Clear Filter
-//               </button>
-//             </div>
-//           </div>
-    
-          
-//           <div className="flex items-center justify-between">
-//             <h2 className="text-[#0C6271] text-sm font-semibold">Sales Table</h2>
-//             <button className="bg-[#0C6271] text-white px-6 py-2 rounded-full text-sm font-medium flex items-center gap-2 hover:bg-[#094f5b] transition w-[200px]">
-//               + Create New Sale
-//             </button>
-//           </div>
-//         </div> 
-      
-//     </>
-//   )
-// }
-
-// export default Inputs;
-
-// edit 
-
-import React from 'react';
+ import React from 'react';
 import { FaSearch, FaCalendarAlt } from "react-icons/fa";
 
 const Inputs = () => {
@@ -142,7 +61,7 @@ const Inputs = () => {
         </div>
       </div>
 
-      {/* Sales Table Header + Button */}
+      
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <h2 className="text-[#0C6271] text-sm font-semibold">Sales Table</h2>
         <button className="bg-[#0C6271] text-white px-6 py-2 rounded-full text-sm font-medium flex items-center gap-2 hover:bg-[#094f5b] transition w-full sm:w-auto">
