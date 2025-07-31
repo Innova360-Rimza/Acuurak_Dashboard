@@ -5,6 +5,7 @@ import TabNav from './TabNav';
 import SaleInvoice from '../SalesView/SaleInvoice';
 import CustomerInformatio from '../CreateNewSale/CustomerInformatio';
 import PaymentInformation from '../CreateNewSale/PaymentInformation';
+import AssignDeriver from '../AssignDriver/AssignDeriver';
 
 
 
@@ -23,9 +24,10 @@ const Sales = () => {
 <Tables/>     
 </div>
 
-<SaleInvoice/>
-<CustomerInformatio/>
-<PaymentInformation/>
+{/* <SaleInvoice/> */}
+{/* <CustomerInformatio/>
+<PaymentInformation/> */}
+{/* <AssignDeriver/> */}
 </>
    
   )

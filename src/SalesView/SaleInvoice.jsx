@@ -104,14 +104,14 @@
 
 // export default SaleInvoice;
 
-// edit 
+// edit   
 
 import React from "react";
 import { FaDownload, FaTrashAlt, FaUndoAlt, FaPen, FaQrcode } from "react-icons/fa";
 
 const SaleInvoice = () => {
   return (
-    <div className="bg-white p-8 rounded-xl max-w-[1100px] mx-auto shadow-md text-[#0a2e3b] font-sans">
+    <div className="bg-white p-8 rounded-xl max-w-[1100px] mx-auto shadow-md text-[#0a2e3b] font-sans ">
       <h3 className="mt-6 mb-4 text-lg font-semibold">Customer Details</h3>
       <div className="flex flex-wrap gap-5 mb-4">
         <div className="flex-1 min-w-[250px]">
@@ -204,7 +204,7 @@ const SaleInvoice = () => {
             key={idx}
             className="flex-1 px-4 py-3 rounded-full border border-[#19BEA0] font-medium text-sm flex items-center justify-center gap-2 bg-gray-100 text-[#03414C] hover:opacity-90 hover:bg-gray-200"
           >
-            {btn.icon} {btn.label}
+            {btn.label} {btn.icon} 
           </button>
         ))}
       </div>

@@ -28,26 +28,12 @@ const TabNav = () => {
 
   return (
     <div className="mx-4 mt-6 md:mx-14">
-      {/* Mobile Toggle Button */}
-      <div className="flex justify-end px-2 mb-2 md:hidden">
-        <button onClick={() => setMenuOpen(!menuOpen)} className="text-2xl text-[#0C6271]">
-          {menuOpen ? <HiX /> : <HiOutlineMenuAlt3 />}
-        </button>
-      </div>
-
-      {/* Tabs */}
-      <div
-        className={`${
-          menuOpen ? 'flex' : 'hidden'
-        } md:flex flex-col md:flex-row md:items-end md:justify-between w-full px-4 md:px-10 border-b border-gray-200 gap-y-3`}
-      >
+      {/* Tabs - hidden on mobile, visible on md+ */}
+      <div className="flex-col hidden w-full px-4 border-b border-gray-200 md:flex md:flex-row md:items-end md:justify-between md:px-10 gap-y-3">
         {tabs.map((tab) => (
           <div
             key={tab.key}
-            onClick={() => {
-              setActiveTab(tab.key);
-              setMenuOpen(false); // auto-close on mobile
-            }}
+            onClick={() => setActiveTab(tab.key)}
             className="flex flex-col items-center px-2 pb-1 cursor-pointer"
           >
             <div
