@@ -6,6 +6,8 @@ import SaleInvoice from '../SalesView/SaleInvoice';
 import CustomerInformatio from '../CreateNewSale/CustomerInformatio';
 import PaymentInformation from '../CreateNewSale/PaymentInformation';
 import AssignDeriver from '../AssignDriver/AssignDeriver';
+import OderDetail from '../OderDetails/OderDetail';
+import SalesActivityLog from '../SalesActivityLog/SalesActivityLog';
 
 
 
@@ -24,10 +26,12 @@ const Sales = () => {
 <Tables/>     
 </div>
 
-{/* <SaleInvoice/> */}
+<SaleInvoice/>
 {/* <CustomerInformatio/>
 <PaymentInformation/> */}
 {/* <AssignDeriver/> */}
+{/* <OderDetail/> */}
+<SalesActivityLog/>
 </>
    
   )

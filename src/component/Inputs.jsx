@@ -84,12 +84,12 @@ const Inputs = () => {
 
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <h2 className="text-[#0C6271] text-sm font-semibold">Sales Table</h2>
-          <div className="flex w-full gap-3 sm:w-auto sm:justify-end">
-            <button className="bg-[#0C6271] text-white md:w-[200px] py-2 rounded-full text-sm font-medium flex items-center justify-center gap-2 hover:bg-[#094f5b] transition md:px-8 px-6">
+          <div className="flex w-full gap-3 sm:w-auto sm:justify-end flex-wrap">
+            <button className="bg-[#0C6271] text-white w-full sm:w-[200px] py-2 rounded-full text-sm font-medium flex items-center justify-center gap-2 hover:bg-[#094f5b] transition px-3 sm:px-8 whitespace-nowrap">
               <span className='text-2xl text-center'>+</span> Create New Sale
             </button>
             <button
-              className="bg-white text-[#0C6271] md:w-[200px] py-2 rounded-full text-sm font-medium flex items-center justify-center gap-2 border border-[#0C6271] hover:bg-gray-100 transition md:px-8 px-6"
+              className="bg-white text-[#0C6271] w-full sm:w-[200px] py-2 rounded-full text-sm font-medium flex items-center justify-center gap-2 border border-[#0C6271] hover:bg-gray-100 transition px-3 sm:px-8 whitespace-nowrap"
               onClick={() => setShowAssignDriver(true)}
             >
               Assign Driver

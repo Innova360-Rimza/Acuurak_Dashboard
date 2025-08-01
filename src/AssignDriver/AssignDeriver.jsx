@@ -5,8 +5,8 @@ import { IoIosArrowDown } from "react-icons/io";
 const AssignDeriver = ({ onClose }) => {
   return (
     <>
-    <div className="bg-white w-[800px] h-[400px] rounded-2xl shadow-md p-6 mx-auto mt-[60px] font-jakarta flex flex-col justify-between">
-      <div className="mx-5 mb-2">
+    <div className="bg-white w-full max-w-[800px] h-full max-h-[95vh] sm:w-[800px] sm:h-[400px] rounded-2xl shadow-md p-4 sm:p-6 mx-auto mt-[30px] sm:mt-[60px] font-jakarta flex flex-col justify-between">
+      <div className="mx-2 mb-2 sm:mx-5">
         <div className="flex items-center justify-between">
           <h3 className="text-[28px] text-[#043841] font-semibold mb-5">Assign Driver</h3>
           <div className="cursor-pointer text-[32px] text-[#043841]" onClick={onClose}><IoMdClose /></div>
@@ -30,13 +30,15 @@ const AssignDeriver = ({ onClose }) => {
           <IoIosArrowDown className="pointer-events-none absolute right-4 top-1/2 transform -translate-y-1/2 text-2xl text-[#043841]" />
         </div>
       </div>
-      <div className="flex items-center gap-4 mx-5 mt-2">
+      <div className="flex flex-col gap-3 mx-2 mt-2 sm:flex-row sm:items-center sm:gap-4 sm:mx-5">
         <button
-          className="w-1/2 py-3 rounded-full border border-[#0a5c63] text-grey-500 text-[20px] font-medium bg-white hover:bg-[#f7fafd] transition-all duration-150">
+          className="w-full sm:w-1/2 py-3 rounded-full border border-[#0a5c63] text-[#0a5c63] text-[18px] sm:text-[20px] font-medium bg-white hover:bg-[#f7fafd] transition-all duration-150"
+          onClick={onClose}
+        >
           Cancel
         </button>
         <button
-          className="w-1/2 py-3 rounded-full bg-[#0a5c63] text-white text-[20px] font-medium border border-[#0a5c63] hover:opacity-90 transition-all duration-150"
+          className="w-full sm:w-1/2 py-3 rounded-full bg-[#0a5c63] text-white text-[18px] sm:text-[20px] font-medium border border-[#0a5c63] hover:opacity-90 transition-all duration-150"
         >
           Assign Driver
         </button>
